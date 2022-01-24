@@ -3,7 +3,7 @@ const app = require('./app');
 const express = require('express');
 // const app = express();
 const fs = require('fs');
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3232;
 // const server = http.createServer(app);
 console.log("Serving on ", port)
 
