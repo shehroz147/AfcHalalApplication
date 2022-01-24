@@ -20,7 +20,7 @@ const dbUrl =  'mongodb://AfcHalalMeat:27017';
 
 
 // Connect Mongo DB
-mongoose.connect(dbUrl, {useNewUrlParser: true, useUnifiedTopology:true},
+mongoose.connect(dbUrl, {useNewUrlParser: true},
 (err) => {
     if (!err) {
         console.log('Connection Successful');
