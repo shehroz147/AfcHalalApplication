@@ -16,7 +16,7 @@ const productRoutes = require("./Route/ProductRoutes");
 
 
 
-const dbUrl =  'mongodb://localhost:27017';
+const dbUrl =  'mongodb://AfcHalalMeat:27017';
 
 
 // Connect Mongo DB
