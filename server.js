@@ -19,6 +19,7 @@ const server = process.env.MODE == "DEV" ? http.createServer(app) : http.createS
 
 console.log("Serving on ", port)
 server.listen(port);
+server.timeout=20000;
 // const clients = [];
 // const io = require("socket.io")(server);
 //
